@@ -1,0 +1,1583 @@
+{
+  "format": 2,
+  "id": "viola",
+  "name": "Viola Instrument Pack",
+  "instruments": [
+    {
+      "id": "bowed-viola",
+      "name": "Bowed viola",
+      "image": "images/viola-front.webp",
+      "sustained": true,
+      "views": {
+        "back": "images/viola-back.webp"
+      },
+      "sound_info": {
+        "summary": "A solo viola playing ordinary bowed notes at mezzo-forte, from IRCAM's Studio On Line recordings.",
+        "source": "TinySOL v6.0 (2020), by Carmine-Emanuele Cella, Daniele Ghisi, Vincent Lostanlen, Fabien Lévy, Joshua Fineberg and Yan Maresz",
+        "source_url": "https://doi.org/10.5281/zenodo.3685367",
+        "performer": "Not named by TinySOL, which credits its creators and not the musician",
+        "recorded": "At IRCAM in Paris between 1996 and 1999, for the Studio On Line (SOL) project. TinySOL, a subset of SOL, was published in 2020.",
+        "includes": "Ordinary bowing (ordinario, no mute) at mezzo-forte, one take for each semitone from C3 to C7, each bowed on one of the viola's four strings",
+        "terms": "Creative Commons Attribution 4.0 (CC BY 4.0): free to use and share with credit to the creators. Provided without warranty, and no endorsement is implied.",
+        "note": "Each take was excerpted at the bow attack, trimmed to one second, level-adjusted, faded, and converted to 32 kHz mono 16-bit audio. TinySOL digitally retuned 17 of these 49 takes, by up to 24 cents."
+      },
+      "positions": [
+        {
+          "name": "1st",
+          "half_steps": 2
+        },
+        {
+          "name": "2nd",
+          "half_steps": 3
+        },
+        {
+          "name": "3rd",
+          "half_steps": 5
+        },
+        {
+          "name": "4th",
+          "half_steps": 7
+        },
+        {
+          "name": "5th",
+          "half_steps": 8
+        },
+        {
+          "name": "6th",
+          "half_steps": 10
+        },
+        {
+          "name": "7th",
+          "half_steps": 12
+        }
+      ],
+      "strings": [
+        {
+          "open": "C3",
+          "nut": [
+            399,
+            414
+          ],
+          "bridge": [
+            1517,
+            446
+          ]
+        },
+        {
+          "open": "G3",
+          "nut": [
+            399,
+            391
+          ],
+          "bridge": [
+            1517,
+            412
+          ]
+        },
+        {
+          "open": "D4",
+          "nut": [
+            399,
+            371
+          ],
+          "bridge": [
+            1517,
+            373
+          ]
+        },
+        {
+          "open": "A4",
+          "nut": [
+            399,
+            353
+          ],
+          "bridge": [
+            1517,
+            337
+          ]
+        }
+      ],
+      "correct_answer_animation": {
+        "file": "animations/string.gif",
+        "anchor": "string"
+      },
+      "samples": {
+        "C3": "sounds/C3.wav",
+        "Db3": "sounds/Db3.wav",
+        "D3": "sounds/D3.wav",
+        "Eb3": "sounds/Eb3.wav",
+        "E3": "sounds/E3.wav",
+        "F3": "sounds/F3.wav",
+        "Gb3": "sounds/Gb3.wav",
+        "G3": "sounds/G3.wav",
+        "Ab3": "sounds/Ab3.wav",
+        "A3": "sounds/A3.wav",
+        "Bb3": "sounds/Bb3.wav",
+        "B3": "sounds/B3.wav",
+        "C4": "sounds/C4.wav",
+        "Db4": "sounds/Db4.wav",
+        "D4": "sounds/D4.wav",
+        "Eb4": "sounds/Eb4.wav",
+        "E4": "sounds/E4.wav",
+        "F4": "sounds/F4.wav",
+        "Gb4": "sounds/Gb4.wav",
+        "G4": "sounds/G4.wav",
+        "Ab4": "sounds/Ab4.wav",
+        "A4": "sounds/A4.wav",
+        "Bb4": "sounds/Bb4.wav",
+        "B4": "sounds/B4.wav",
+        "C5": "sounds/C5.wav",
+        "Db5": "sounds/Db5.wav",
+        "D5": "sounds/D5.wav",
+        "Eb5": "sounds/Eb5.wav",
+        "E5": "sounds/E5.wav",
+        "F5": "sounds/F5.wav",
+        "Gb5": "sounds/Gb5.wav",
+        "G5": "sounds/G5.wav",
+        "Ab5": "sounds/Ab5.wav",
+        "A5": "sounds/A5.wav",
+        "Bb5": "sounds/Bb5.wav",
+        "B5": "sounds/B5.wav",
+        "C6": "sounds/C6.wav",
+        "Db6": "sounds/Db6.wav",
+        "D6": "sounds/D6.wav",
+        "Eb6": "sounds/Eb6.wav",
+        "E6": "sounds/E6.wav",
+        "F6": "sounds/F6.wav",
+        "Gb6": "sounds/Gb6.wav",
+        "G6": "sounds/G6.wav",
+        "Ab6": "sounds/Ab6.wav",
+        "A6": "sounds/A6.wav",
+        "Bb6": "sounds/Bb6.wav",
+        "B6": "sounds/B6.wav",
+        "C7": "sounds/C7.wav"
+      },
+      "gain": 0.85,
+      "kind": "viola"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "first-position",
+      "description": "Name the note marked on the viola's fingerboard.",
+      "title": "Viola Note Identification",
+      "type": "fingerboard-notes",
+      "settings": {
+        "sound": "Viola sound",
+        "range": "alto",
+        "accidentals": true,
+        "octave": true
+      },
+      "notes": {
+        "C3": [
+          "C3",
+          "D3",
+          "E3",
+          "F3",
+          "G3"
+        ],
+        "G3": [
+          "G3",
+          "A3",
+          "B3",
+          "C4",
+          "D4"
+        ],
+        "D4": [
+          "D4",
+          "E4",
+          "F4",
+          "G4",
+          "A4"
+        ],
+        "A4": [
+          "A4",
+          "B4",
+          "C5",
+          "D5",
+          "E5"
+        ]
+      },
+      "instrument": "bowed-viola",
+      "icon": "icons/viola.svg",
+      "lessons": [
+        "finding-notes",
+        "parts-of-the-viola"
+      ]
+    },
+    {
+      "id": "viola-parts",
+      "description": "Name the parts of the viola.",
+      "title": "Parts of the Viola",
+      "instrument": "bowed-viola",
+      "type": "image-choice",
+      "questions": [
+        {
+          "prompt": "Which part of the viola is marked?",
+          "point": [
+            140,
+            390
+          ],
+          "focus": [
+            0,
+            220,
+            480,
+            330
+          ],
+          "choices": [
+            "Pegbox",
+            "Scroll",
+            "Peg",
+            "Neck"
+          ],
+          "answer": "Scroll"
+        },
+        {
+          "prompt": "Which part of the viola is marked?",
+          "point": [
+            250,
+            392
+          ],
+          "focus": [
+            0,
+            220,
+            480,
+            330
+          ],
+          "choices": [
+            "Scroll",
+            "Peg",
+            "Pegbox",
+            "Nut"
+          ],
+          "answer": "Pegbox"
+        },
+        {
+          "prompt": "Which part of the viola is marked?",
+          "point": [
+            190,
+            280
+          ],
+          "marker_size": 50,
+          "focus": [
+            0,
+            220,
+            480,
+            330
+          ],
+          "choices": [
+            "Peg",
+            "Scroll",
+            "Pegbox",
+            "Fine tuner"
+          ],
+          "answer": "Peg"
+        },
+        {
+          "prompt": "Which part of the viola is marked?",
+          "point": [
+            232,
+            490
+          ],
+          "marker_size": 50,
+          "focus": [
+            0,
+            220,
+            480,
+            330
+          ],
+          "choices": [
+            "Fine tuner",
+            "Pegbox",
+            "Scroll",
+            "Peg"
+          ],
+          "answer": "Peg"
+        },
+        {
+          "prompt": "Which part of the viola is marked?",
+          "point": [
+            393,
+            395
+          ],
+          "marker_size": 24,
+          "focus": [
+            0,
+            220,
+            480,
+            330
+          ],
+          "choices": [
+            "Fingerboard",
+            "Bridge",
+            "Nut",
+            "Pegbox"
+          ],
+          "answer": "Nut"
+        },
+        {
+          "prompt": "Which part of the viola is marked?",
+          "point": [
+            700,
+            384
+          ],
+          "marker_size": 28,
+          "focus": [
+            400,
+            290,
+            800,
+            200
+          ],
+          "choices": [
+            "Neck",
+            "Fingerboard",
+            "Nut",
+            "Bridge"
+          ],
+          "answer": "Fingerboard"
+        },
+        {
+          "prompt": "Which string is marked?",
+          "point": [
+            1100,
+            434
+          ],
+          "marker_size": 18,
+          "focus": [
+            820,
+            300,
+            520,
+            200
+          ],
+          "choices": [
+            "C string",
+            "G string",
+            "D string",
+            "A string"
+          ],
+          "answer": "C string"
+        },
+        {
+          "prompt": "Which string is marked?",
+          "point": [
+            1100,
+            404
+          ],
+          "marker_size": 18,
+          "focus": [
+            820,
+            300,
+            520,
+            200
+          ],
+          "choices": [
+            "C string",
+            "G string",
+            "D string",
+            "A string"
+          ],
+          "answer": "G string"
+        },
+        {
+          "prompt": "Which string is marked?",
+          "point": [
+            1100,
+            372
+          ],
+          "marker_size": 18,
+          "focus": [
+            820,
+            300,
+            520,
+            200
+          ],
+          "choices": [
+            "C string",
+            "G string",
+            "D string",
+            "A string"
+          ],
+          "answer": "D string"
+        },
+        {
+          "prompt": "Which string is marked?",
+          "point": [
+            1100,
+            343
+          ],
+          "marker_size": 18,
+          "focus": [
+            820,
+            300,
+            520,
+            200
+          ],
+          "choices": [
+            "C string",
+            "G string",
+            "D string",
+            "A string"
+          ],
+          "answer": "A string"
+        },
+        {
+          "prompt": "Which part of the viola is marked?",
+          "point": [
+            1500,
+            400
+          ],
+          "marker_size": 28,
+          "focus": [
+            1400,
+            270,
+            640,
+            240
+          ],
+          "choices": [
+            "Tailpiece",
+            "Nut",
+            "Bridge",
+            "Fingerboard"
+          ],
+          "answer": "Bridge"
+        },
+        {
+          "prompt": "Which part of the viola is marked?",
+          "point": [
+            1445,
+            252
+          ],
+          "marker_size": 28,
+          "focus": [
+            1300,
+            150,
+            360,
+            190
+          ],
+          "choices": [
+            "Purfling",
+            "F-hole",
+            "Corner",
+            "Bridge"
+          ],
+          "answer": "F-hole"
+        },
+        {
+          "prompt": "Which part of the viola is marked?",
+          "point": [
+            1490,
+            535
+          ],
+          "marker_size": 28,
+          "focus": [
+            1300,
+            430,
+            360,
+            190
+          ],
+          "choices": [
+            "F-hole",
+            "Fine tuner",
+            "Bridge",
+            "Purfling"
+          ],
+          "answer": "F-hole"
+        },
+        {
+          "prompt": "Which part of the viola is marked?",
+          "point": [
+            1800,
+            388
+          ],
+          "focus": [
+            1400,
+            270,
+            640,
+            240
+          ],
+          "choices": [
+            "Chin rest",
+            "Tailpiece",
+            "Bridge",
+            "Fingerboard"
+          ],
+          "answer": "Tailpiece"
+        },
+        {
+          "prompt": "Which part of the viola is marked?",
+          "point": [
+            1670,
+            351
+          ],
+          "marker_size": 20,
+          "focus": [
+            1400,
+            270,
+            640,
+            240
+          ],
+          "choices": [
+            "Peg",
+            "Fine tuner",
+            "Bridge",
+            "Tailpiece"
+          ],
+          "answer": "Fine tuner"
+        },
+        {
+          "prompt": "Which part of the viola is marked?",
+          "point": [
+            980,
+            150
+          ],
+          "marker_size": 56,
+          "choices": [
+            "Lower bout",
+            "Upper bout",
+            "C-bout",
+            "Corner"
+          ],
+          "answer": "Upper bout"
+        },
+        {
+          "prompt": "Which part of the viola is marked?",
+          "point": [
+            1360,
+            215
+          ],
+          "marker_size": 56,
+          "choices": [
+            "Upper bout",
+            "Lower bout",
+            "Corner",
+            "C-bout"
+          ],
+          "answer": "C-bout"
+        },
+        {
+          "prompt": "Which part of the viola is marked?",
+          "point": [
+            1760,
+            640
+          ],
+          "marker_size": 56,
+          "choices": [
+            "C-bout",
+            "Lower bout",
+            "Upper bout",
+            "Corner"
+          ],
+          "answer": "Lower bout"
+        },
+        {
+          "prompt": "Which part of the viola is marked?",
+          "point": [
+            1503,
+            92
+          ],
+          "marker_size": 16,
+          "focus": [
+            1380,
+            30,
+            260,
+            160
+          ],
+          "choices": [
+            "F-hole",
+            "Purfling",
+            "Scroll",
+            "Corner"
+          ],
+          "answer": "Corner"
+        },
+        {
+          "prompt": "Which part of the viola is marked?",
+          "point": [
+            866,
+            285
+          ],
+          "marker_size": 12,
+          "focus": [
+            820,
+            230,
+            200,
+            150
+          ],
+          "choices": [
+            "Purfling",
+            "F-hole",
+            "Bridge",
+            "Corner"
+          ],
+          "answer": "Purfling"
+        },
+        {
+          "prompt": "Which part of the viola is marked?",
+          "point": [
+            1100,
+            520
+          ],
+          "marker_size": 56,
+          "choices": [
+            "Back",
+            "Ribs",
+            "Top plate",
+            "Neck"
+          ],
+          "answer": "Top plate"
+        },
+        {
+          "prompt": "Which part of the viola is marked on the back?",
+          "view": "back",
+          "point": [
+            90,
+            384
+          ],
+          "focus": [
+            0,
+            230,
+            470,
+            320
+          ],
+          "choices": [
+            "Pegbox",
+            "Scroll",
+            "Peg",
+            "Button"
+          ],
+          "answer": "Scroll"
+        },
+        {
+          "prompt": "Which part of the viola is marked on the back?",
+          "view": "back",
+          "point": [
+            270,
+            385
+          ],
+          "focus": [
+            0,
+            230,
+            470,
+            320
+          ],
+          "choices": [
+            "Scroll",
+            "Peg",
+            "Pegbox",
+            "Neck"
+          ],
+          "answer": "Pegbox"
+        },
+        {
+          "prompt": "Which part of the viola is marked on the back?",
+          "view": "back",
+          "point": [
+            237,
+            272
+          ],
+          "marker_size": 50,
+          "focus": [
+            0,
+            230,
+            470,
+            320
+          ],
+          "choices": [
+            "Peg",
+            "Scroll",
+            "Pegbox",
+            "Button"
+          ],
+          "answer": "Peg"
+        },
+        {
+          "prompt": "Which part of the viola is marked on the back?",
+          "view": "back",
+          "point": [
+            600,
+            385
+          ],
+          "focus": [
+            380,
+            270,
+            600,
+            230
+          ],
+          "choices": [
+            "Button",
+            "Neck",
+            "Pegbox",
+            "Scroll"
+          ],
+          "answer": "Neck"
+        },
+        {
+          "prompt": "Which part of the viola is marked on the back?",
+          "view": "back",
+          "point": [
+            812,
+            382
+          ],
+          "marker_size": 22,
+          "focus": [
+            700,
+            300,
+            300,
+            170
+          ],
+          "choices": [
+            "Peg",
+            "Button",
+            "Corner",
+            "Pegbox"
+          ],
+          "answer": "Button"
+        },
+        {
+          "prompt": "Which part of the viola is marked on the back?",
+          "view": "back",
+          "point": [
+            1300,
+            400
+          ],
+          "marker_size": 56,
+          "choices": [
+            "Ribs",
+            "Top plate",
+            "Back plate",
+            "Neck"
+          ],
+          "answer": "Back plate"
+        },
+        {
+          "prompt": "Which part of the viola is marked on the back?",
+          "view": "back",
+          "point": [
+            1500,
+            115
+          ],
+          "marker_size": 18,
+          "focus": [
+            1400,
+            40,
+            220,
+            160
+          ],
+          "choices": [
+            "Back plate",
+            "Ribs",
+            "Purfling",
+            "Corner"
+          ],
+          "answer": "Ribs"
+        },
+        {
+          "prompt": "Which part of the viola is marked on the back?",
+          "view": "back",
+          "point": [
+            1237,
+            120
+          ],
+          "marker_size": 16,
+          "focus": [
+            1150,
+            60,
+            200,
+            120
+          ],
+          "choices": [
+            "Ribs",
+            "Purfling",
+            "Corner",
+            "Button"
+          ],
+          "answer": "Corner"
+        },
+        {
+          "prompt": "Which part of the viola is marked on the back?",
+          "view": "back",
+          "point": [
+            859,
+            280
+          ],
+          "marker_size": 12,
+          "focus": [
+            820,
+            220,
+            120,
+            120
+          ],
+          "choices": [
+            "Purfling",
+            "Ribs",
+            "Corner",
+            "Button"
+          ],
+          "answer": "Purfling"
+        }
+      ],
+      "icon": "icons/viola.svg",
+      "lessons": [
+        "parts-of-the-viola"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "parts-of-the-viola",
+      "title": "Parts of the Viola",
+      "about": "Learn the names of the viola's main parts, from the scroll and pegs to the bridge and tailpiece, so you can follow directions about the instrument.",
+      "summary": "Name the parts you see on the front of a viola.",
+      "category": "Viola",
+      "exercise": "viola-parts",
+      "steps": [
+        {
+          "title": "The viola from the front",
+          "picture": {
+            "instrument": "bowed-viola",
+            "marker": false
+          },
+          "text": [
+            "A **viola** is a bowed string instrument a little larger than a violin and tuned lower. Here it lies on its side so that you can see the whole front. The carved end on the left is the **head**, the long part in the middle is the **neck**, and the large curved part on the right is the **body**.",
+            "The player's left hand slides along the neck while the right hand draws the bow across the strings near the body. Musicians use the same names for every part, so a teacher can say \"the first finger near the nut\" and you know where to look. The next steps introduce the parts from left to right, and one step turns the viola over to show its back."
+          ],
+          "task": {
+            "prompt": "Which word names the long middle part along which the left hand moves?",
+            "choices": [
+              "Head",
+              "Neck",
+              "Body"
+            ],
+            "answer": "Neck",
+            "hint": "It is the long, narrow part between the carved end and the large curved part.",
+            "explanation": "The neck is the long middle part. The head is the carved end on the left, and the body is the large part on the right."
+          }
+        },
+        {
+          "title": "The head: scroll, pegbox, and pegs",
+          "picture": {
+            "instrument": "bowed-viola",
+            "marker": false,
+            "focus": [
+              0,
+              220,
+              480,
+              330
+            ]
+          },
+          "text": [
+            "The head is where the strings end. The curled, carved end is the **scroll**. Just behind it is the **pegbox**, a hollow space where each string winds around a **peg**.",
+            "The pegs stick out through the sides of the pegbox. Turning a peg makes its string tighter or looser, which raises or lowers its **pitch**, how high or low it sounds. A viola has four pegs, one for each string."
+          ],
+          "task": {
+            "prompt": "Click one of the pegs.",
+            "targets": [
+              {
+                "point": [
+                  192,
+                  282
+                ],
+                "radius": 45
+              },
+              {
+                "point": [
+                  287,
+                  274
+                ],
+                "radius": 45
+              },
+              {
+                "point": [
+                  231,
+                  488
+                ],
+                "radius": 45
+              },
+              {
+                "point": [
+                  341,
+                  508
+                ],
+                "radius": 45
+              }
+            ],
+            "hint": "The pegs are the dark knobs that stick out on either side of the pegbox.",
+            "explanation": "That is a peg. Turning it winds its string tighter or looser, which changes the pitch."
+          }
+        },
+        {
+          "title": "The neck: nut, fingerboard, and strings",
+          "picture": {
+            "instrument": "bowed-viola",
+            "point": [
+              393,
+              395
+            ],
+            "marker_size": 26,
+            "focus": [
+              330,
+              300,
+              500,
+              170
+            ]
+          },
+          "text": [
+            "The strings pass over a small ridge called the **nut** and then run along the **fingerboard**, a long smooth board of dark wood. The highlighted part is the nut. The player presses a string against the fingerboard to change its pitch.",
+            "A viola has four strings. From lowest to highest they are the **C string**, **G string**, **D string**, and **A string**. The lowest string is the thickest, and each string is named for the pitch it sounds when it is not pressed down."
+          ],
+          "task": {
+            "prompt": "Which string is the lowest and the thickest?",
+            "choices": [
+              "C string",
+              "G string",
+              "D string",
+              "A string"
+            ],
+            "answer": "C string",
+            "hint": "The strings are named for their pitches, from the lowest C to the highest A.",
+            "explanation": "The C string sounds lowest, and it is the thickest string. The A string is the highest and the thinnest."
+          }
+        },
+        {
+          "title": "The body: top plate, bouts, and f-holes",
+          "picture": {
+            "instrument": "bowed-viola",
+            "marker": false
+          },
+          "text": [
+            "The body is the hollow wooden box that makes the sound louder. Its front, which curves gently, is the **top plate**. A thin inlaid line near the edge, the **purfling**, follows the outline.",
+            "The outline has three wide curves called **bouts**. The **upper bout** is nearest the neck, the **lower bout** is the widest, and the narrow waist between them is the **C-bout**. The pointed tips where the waist meets the other curves are the **corners**.",
+            "Two curved openings, the **f-holes**, let the sound out. Each is shaped like the letter f."
+          ],
+          "task": {
+            "prompt": "Click one of the f-holes.",
+            "targets": [
+              {
+                "point": [
+                  1445,
+                  252
+                ],
+                "radius": 50
+              },
+              {
+                "point": [
+                  1490,
+                  535
+                ],
+                "radius": 50
+              }
+            ],
+            "hint": "Look for the two curved openings shaped like the letter f, one on each side of the bridge.",
+            "explanation": "That is an f-hole. The two f-holes let the sound out of the body."
+          }
+        },
+        {
+          "title": "The back: back plate, ribs, and button",
+          "picture": {
+            "instrument": "bowed-viola",
+            "view": "back",
+            "point": [
+              812,
+              382
+            ],
+            "marker_size": 30,
+            "focus": [
+              560,
+              20,
+              1480,
+              730
+            ]
+          },
+          "text": [
+            "Turn the viola over and you see its **back plate**, the wooden plate that closes the box behind the top plate. It is usually made of maple. The thin curved walls that join the back plate to the top plate are the **ribs**. From behind you mostly see them as narrow bands at the edge, where the waist meets the other curves.",
+            "The smooth maple neck continues under the player's left hand, and where it meets the body there is a small rounded nub, the **button**. The highlighted part is the button."
+          ],
+          "task": {
+            "prompt": "Which part is the small rounded nub where the neck meets the back plate?",
+            "choices": [
+              "Button",
+              "Peg",
+              "Rib"
+            ],
+            "answer": "Button",
+            "hint": "Look at the place where the neck ends against the body.",
+            "explanation": "The button is the small rounded nub at the end of the neck, against the back plate. The ribs are the thin walls around the edge."
+          }
+        },
+        {
+          "title": "The bridge, tailpiece, and fine tuner",
+          "picture": {
+            "instrument": "bowed-viola",
+            "marker": false,
+            "focus": [
+              1400,
+              270,
+              640,
+              240
+            ]
+          },
+          "text": [
+            "The **bridge** is a small carved piece of maple that stands on the top plate and holds the strings up. It carries the strings' vibrations to the body.",
+            "At the far end the strings are anchored to the **tailpiece**, a long dark piece shaped like a tapered tongue. A tiny screw on the tailpiece, the **fine tuner**, changes a string's pitch by a very small amount, so you can correct it without turning a peg."
+          ],
+          "task": {
+            "prompt": "Click the bridge.",
+            "targets": [
+              {
+                "point": [
+                  1510,
+                  355
+                ],
+                "radius": 32
+              },
+              {
+                "point": [
+                  1510,
+                  400
+                ],
+                "radius": 32
+              },
+              {
+                "point": [
+                  1510,
+                  440
+                ],
+                "radius": 32
+              }
+            ],
+            "hint": "The bridge stands on the top plate, and the strings pass over its top edge.",
+            "explanation": "That is the bridge. It lifts the strings off the top plate and passes their vibrations to the body."
+          }
+        },
+        {
+          "title": "Naming the parts",
+          "text": [
+            "You can now name the parts of the head, the neck, the body, the back, and the bridge end of a viola. The practice exercise marks one part at a time and asks for its name.",
+            "Start by deciding which region the dot is in: the head, the neck, the strings, the body, or the bridge end. Then pick the name that fits that region."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finding-notes",
+      "title": "Finding Notes on the Viola",
+      "about": "Learn where the notes fall on each string, how half steps and positions measure the way up the fingerboard, and how to name the note at a marked spot.",
+      "summary": "Name the note at any spot on the viola's strings.",
+      "category": "Viola",
+      "exercise": "first-position",
+      "steps": [
+        {
+          "title": "The open strings",
+          "picture": {
+            "instrument": "bowed-viola",
+            "point": [
+              399,
+              371
+            ],
+            "marker_size": 22,
+            "focus": [
+              330,
+              300,
+              500,
+              170
+            ]
+          },
+          "hear": [
+            [
+              "C3"
+            ],
+            [
+              "G3"
+            ],
+            [
+              "D4"
+            ],
+            [
+              "A4"
+            ]
+          ],
+          "hear_label": "Hear the four open strings",
+          "hear_instrument": "bowed-viola",
+          "text": [
+            "A string played without pressing it down is an **open string**. Each open string sounds a note with the same letter as the string's name. Notes are written with a letter and an octave number, so the viola's open strings are C3, G3, D4, and A4, from lowest to highest.",
+            "Each string sounds a **fifth** higher than the one before it. A fifth is the distance from one letter to the letter five places up, counting the first: C, D, E, F, G. Listen to the four open strings in order. The dot marks the open D string, right at the nut."
+          ],
+          "task": {
+            "prompt": "Which open string sounds the highest?",
+            "choices": [
+              "C string",
+              "G string",
+              "D string",
+              "A string"
+            ],
+            "answer": "A string",
+            "hint": "Listen again. Each string is a fifth higher than the one before it.",
+            "explanation": "The A string is the highest, A4. The open strings rise in order: C3, G3, D4, A4."
+          }
+        },
+        {
+          "title": "Half steps along a string",
+          "picture": {
+            "instrument": "bowed-viola",
+            "string": "D4",
+            "note": "E4"
+          },
+          "hear": [
+            [
+              "D4"
+            ],
+            [
+              "E4"
+            ]
+          ],
+          "hear_label": "Hear D4, then E4",
+          "hear_instrument": "bowed-viola",
+          "text": [
+            "Pressing a string against the fingerboard makes the part that can vibrate shorter, so the pitch rises. A **half step** is the smallest change in pitch used here, like moving from one piano key to the very next key. On the viola each half step is a small slide of the finger toward the bridge.",
+            "The picture shows a ruler above the fingerboard. The distance between neighboring ticks is always one half step, and the dot shows where a finger presses. The names above some ticks are explained later in this lesson. Here it is two ticks, or two half steps, above the open D string, so it sounds E4. One more tick up would sound F4."
+          ],
+          "task": {
+            "prompt": "How many half steps above the open D string is F4?",
+            "choices": [
+              "2",
+              "3",
+              "4"
+            ],
+            "answer": "3",
+            "hint": "E4 is two ticks above the nut. F4 is the next tick.",
+            "explanation": "F4 is three ticks above the open D string: two half steps to E4, then one more to F4."
+          }
+        },
+        {
+          "title": "The natural notes on a string",
+          "picture": {
+            "instrument": "bowed-viola",
+            "string": "D4",
+            "note": "F4"
+          },
+          "hear": [
+            [
+              "D4"
+            ],
+            [
+              "E4"
+            ],
+            [
+              "F4"
+            ],
+            [
+              "G4"
+            ],
+            [
+              "A4"
+            ]
+          ],
+          "hear_label": "Hear D up to A",
+          "hear_instrument": "bowed-viola",
+          "text": [
+            "The **natural notes** are the notes without sharps or flats, and their letters follow the alphabet from A to G and then repeat. On the D string they fall at these distances above the open string: D at 0 half steps, E at 2, F at 3, G at 5, and A at 7.",
+            "Notice that E to F is only one half step, while the other neighbors are two. The pattern is the same on every string, starting from that string's own letter. The dot is on F4, three half steps up the D string."
+          ],
+          "task": {
+            "prompt": "After F on the D string, which natural note comes next?",
+            "choices": [
+              "E",
+              "G",
+              "A"
+            ],
+            "answer": "G",
+            "hint": "The letters go D, E, F, then the next letter in the alphabet.",
+            "explanation": "G comes after F, two half steps higher, so it is five half steps above the open D string."
+          }
+        },
+        {
+          "title": "Positions",
+          "picture": {
+            "instrument": "bowed-viola",
+            "string": "D4",
+            "note": "E4"
+          },
+          "text": [
+            "A **position** is where the player's hand sits along the neck. In **first position** the first finger, the index finger, presses two half steps above the open string. The labeled ticks on the ruler show where the first finger lands in each position, and the dot sits under the 1st tick: this is E4 on the D string.",
+            "Moving the hand up to **second position** puts the first finger one half step higher, three half steps above the open string. **Third position** puts it five half steps up. The ruler goes on up to seventh position, which is an octave, twelve half steps, above the open string."
+          ],
+          "task": {
+            "prompt": "In which position does the first finger land three half steps above the open string?",
+            "choices": [
+              "First position",
+              "Second position",
+              "Third position"
+            ],
+            "answer": "Second position",
+            "hint": "First position is two half steps. Second position is one half step higher.",
+            "explanation": "Second position puts the first finger three half steps above the open string. On the D string that is F4."
+          }
+        },
+        {
+          "title": "One note in two places",
+          "picture": {
+            "instrument": "bowed-viola",
+            "string": "C3",
+            "note": "G3"
+          },
+          "hear": [
+            [
+              "G3"
+            ]
+          ],
+          "hear_label": "Hear G3",
+          "hear_instrument": "bowed-viola",
+          "text": [
+            "The open G string sounds G3. The same pitch can also be played on the C string by pressing seven half steps above the open C. Both places sound G3, so you must look at which string the dot is on to name the spot.",
+            "Seven half steps is the size of a fifth. That is why the strings are tuned a fifth apart: the note seven half steps above an open string is the next open string. The dot here is on the C string at fourth position, seven half steps up."
+          ],
+          "task": {
+            "prompt": "Besides the open G string, where else can you play G3?",
+            "choices": [
+              "On the C string, seven half steps up",
+              "On the D string, five half steps up",
+              "Nowhere else"
+            ],
+            "answer": "On the C string, seven half steps up",
+            "hint": "Count seven half steps up from the open C string.",
+            "explanation": "Seven half steps above C3 is G3, the same pitch as the open G string. A fifth is always seven half steps."
+          }
+        },
+        {
+          "title": "Naming the note at the dot",
+          "text": [
+            "To name a marked note, first find its string by counting from the thickest string. Next count the ticks from the nut to the dot. Then say the note that many half steps above the open string.",
+            "The practice exercise marks one spot at a time and asks for its note. Use the labeled ticks to check your counting, and remember that the same pitch can sit on two strings."
+          ]
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "viola",
+      "definition": "The **viola** is a bowed string instrument a little larger than a violin and tuned a fifth lower. Its four strings are C, G, D, and A, and its music is usually written in the alto clef.",
+      "guide": "Learn its parts by name, then use them to say where a note is played.",
+      "picture": {
+        "instrument": "bowed-viola",
+        "marker": false
+      },
+      "caption": "A viola, seen from the front",
+      "exercises": [
+        "viola-parts"
+      ],
+      "lessons": [
+        "parts-of-the-viola"
+      ]
+    },
+    {
+      "term": "scroll",
+      "definition": "The **scroll** is the curled, carved end of the viola. It is decoration, and it marks the end of the pegbox.",
+      "guide": "Look at the far left of the picture. Every viola has one, though makers carve them differently.",
+      "picture": {
+        "instrument": "bowed-viola",
+        "point": [
+          100,
+          385
+        ],
+        "marker_size": 80,
+        "focus": [
+          0,
+          220,
+          480,
+          330
+        ]
+      },
+      "caption": "The scroll",
+      "exercises": [
+        "viola-parts"
+      ],
+      "lessons": [
+        "parts-of-the-viola"
+      ]
+    },
+    {
+      "term": "pegbox",
+      "definition": "The **pegbox** is the hollow space behind the scroll. Each string winds around a peg that passes through its sides.",
+      "picture": {
+        "instrument": "bowed-viola",
+        "point": [
+          250,
+          392
+        ],
+        "marker_size": 50,
+        "focus": [
+          0,
+          220,
+          480,
+          330
+        ]
+      },
+      "caption": "The pegbox",
+      "exercises": [
+        "viola-parts"
+      ],
+      "lessons": [
+        "parts-of-the-viola"
+      ]
+    },
+    {
+      "term": "peg",
+      "definition": "A **peg** is a tapered wooden knob that passes through the pegbox. Turning it makes its string tighter or looser, which raises or lowers the pitch.",
+      "guide": "Pegs make large changes in pitch. For a small correction, use a fine tuner.",
+      "picture": {
+        "instrument": "bowed-viola",
+        "point": [
+          192,
+          282
+        ],
+        "marker_size": 50,
+        "focus": [
+          0,
+          220,
+          480,
+          330
+        ]
+      },
+      "caption": "One of the four pegs",
+      "exercises": [
+        "viola-parts"
+      ],
+      "lessons": [
+        "parts-of-the-viola"
+      ]
+    },
+    {
+      "term": "nut",
+      "definition": "The **nut** is a small ridge at the top of the fingerboard. It holds each string at the right height and spacing, and it ends the vibrating length of an open string.",
+      "picture": {
+        "instrument": "bowed-viola",
+        "point": [
+          393,
+          395
+        ],
+        "marker_size": 24,
+        "focus": [
+          0,
+          220,
+          480,
+          330
+        ]
+      },
+      "caption": "The nut",
+      "exercises": [
+        "viola-parts"
+      ],
+      "lessons": [
+        "parts-of-the-viola"
+      ]
+    },
+    {
+      "term": "fingerboard",
+      "definition": "The **fingerboard** is the long, smooth, dark strip under the strings. The left hand presses a string against it to shorten the part that vibrates and raise the pitch.",
+      "picture": {
+        "instrument": "bowed-viola",
+        "point": [
+          700,
+          384
+        ],
+        "marker_size": 28,
+        "focus": [
+          400,
+          290,
+          800,
+          200
+        ]
+      },
+      "caption": "The fingerboard",
+      "exercises": [
+        "viola-parts"
+      ],
+      "lessons": [
+        "parts-of-the-viola"
+      ]
+    },
+    {
+      "term": "bridge",
+      "definition": "The **bridge** is a small carved piece of maple that stands on the top plate and holds the strings up. It carries their vibrations to the body.",
+      "guide": "The part of a string between the nut and the bridge is the part that vibrates.",
+      "picture": {
+        "instrument": "bowed-viola",
+        "point": [
+          1500,
+          400
+        ],
+        "marker_size": 28,
+        "focus": [
+          1400,
+          270,
+          640,
+          240
+        ]
+      },
+      "caption": "The bridge",
+      "exercises": [
+        "viola-parts"
+      ],
+      "lessons": [
+        "parts-of-the-viola"
+      ]
+    },
+    {
+      "term": "tailpiece",
+      "definition": "The **tailpiece** is the long dark piece beyond the bridge. The ends of the strings are anchored to it.",
+      "picture": {
+        "instrument": "bowed-viola",
+        "point": [
+          1800,
+          388
+        ],
+        "focus": [
+          1400,
+          270,
+          640,
+          240
+        ]
+      },
+      "caption": "The tailpiece",
+      "exercises": [
+        "viola-parts"
+      ],
+      "lessons": [
+        "parts-of-the-viola"
+      ]
+    },
+    {
+      "term": "fine tuner",
+      "definition": "A **fine tuner** is a tiny screw on the tailpiece that changes a string's pitch by a very small amount. It lets you correct a string without turning a peg.",
+      "picture": {
+        "instrument": "bowed-viola",
+        "point": [
+          1670,
+          351
+        ],
+        "marker_size": 20,
+        "focus": [
+          1400,
+          270,
+          640,
+          240
+        ]
+      },
+      "caption": "A fine tuner",
+      "exercises": [
+        "viola-parts"
+      ],
+      "lessons": [
+        "parts-of-the-viola"
+      ]
+    },
+    {
+      "term": "f-holes",
+      "definition": "The **f-holes** are two curved openings in the top plate, each shaped like the letter f. They let the sound out of the body.",
+      "picture": {
+        "instrument": "bowed-viola",
+        "point": [
+          1445,
+          252
+        ],
+        "marker_size": 28,
+        "focus": [
+          1300,
+          150,
+          360,
+          190
+        ]
+      },
+      "caption": "One of the f-holes",
+      "exercises": [
+        "viola-parts"
+      ],
+      "lessons": [
+        "parts-of-the-viola"
+      ]
+    },
+    {
+      "term": "purfling",
+      "definition": "The **purfling** is a thin inlaid line that follows the outline of the plates, a little inside the edge.",
+      "picture": {
+        "instrument": "bowed-viola",
+        "point": [
+          866,
+          285
+        ],
+        "marker_size": 12,
+        "focus": [
+          820,
+          230,
+          200,
+          150
+        ]
+      },
+      "caption": "The purfling",
+      "exercises": [
+        "viola-parts"
+      ],
+      "lessons": [
+        "parts-of-the-viola"
+      ]
+    },
+    {
+      "term": "back plate",
+      "definition": "The **back plate** is the wooden plate that closes the box behind the top plate. It is usually made of maple.",
+      "picture": {
+        "instrument": "bowed-viola",
+        "view": "back",
+        "point": [
+          1300,
+          400
+        ],
+        "marker_size": 56
+      },
+      "caption": "The back plate, seen from behind",
+      "exercises": [
+        "viola-parts"
+      ],
+      "lessons": [
+        "parts-of-the-viola"
+      ]
+    },
+    {
+      "term": "open string",
+      "definition": "An **open string** is a string played without pressing it against the fingerboard. It sounds its own pitch: C, G, D, or A on a viola.",
+      "guide": "Open strings are a reference. Each other note is a number of half steps above one of them.",
+      "picture": {
+        "instrument": "bowed-viola",
+        "point": [
+          399,
+          371
+        ],
+        "marker_size": 22,
+        "focus": [
+          330,
+          300,
+          500,
+          170
+        ]
+      },
+      "caption": "The open D string begins at the nut",
+      "exercises": [
+        "first-position"
+      ],
+      "lessons": [
+        "finding-notes"
+      ]
+    },
+    {
+      "term": "position",
+      "definition": "A **position** names where the left hand sits along the neck. In first position, the first finger lands a whole step above the open string, and each later position is higher up the neck.",
+      "guide": "Higher positions put the same note on a different string, so one pitch can be played in more than one place.",
+      "exercises": [
+        "first-position"
+      ],
+      "lessons": [
+        "finding-notes"
+      ]
+    }
+  ]
+}

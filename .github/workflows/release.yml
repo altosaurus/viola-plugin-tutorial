@@ -1,0 +1,53 @@
+name: Release
+
+# Pushing a tag such as v1.0.0 builds viola.zip from docs/assets/plugins/viola/ and publishes a GitHub release with it attached.
+# Alto installs a registered plugin from the latest published release, and picks the asset named <pack id>.zip, so the zip is
+# built here and is not kept in the repository.
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write # to create the release
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build viola.zip with pack.json at its root
+        run: |
+          cd docs/assets/plugins/viola
+          zip -X -D -r -q "$GITHUB_WORKSPACE/viola.zip" .
+
+      - name: Check the zip
+        run: |
+          python3 - <<'PY'
+          import json
+          import zipfile
+
+          with zipfile.ZipFile("viola.zip") as archive:
+              assert archive.testzip() is None, "the zip is damaged"
+              names = archive.namelist()
+              assert "pack.json" in names, "pack.json must be at the root of the zip"
+              assert "CREDITS.txt" in names, "keep CREDITS.txt with the recordings"
+              pack = json.loads(archive.read("pack.json"))
+              assert pack["id"] == "viola", f"the pack id is {pack['id']!r}, but the registered id is 'viola'"
+              missing = [
+                  path
+                  for instrument in pack["instruments"]
+                  for path in [instrument["image"], *instrument.get("views", {}).values(), *instrument["samples"].values()]
+                  if path not in names
+              ]
+              assert not missing, f"the manifest names files the zip lacks: {missing}"
+          print("viola.zip is complete")
+          PY
+
+      - name: Publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" viola.zip --title "Viola plugin $GITHUB_REF_NAME" --generate-notes
