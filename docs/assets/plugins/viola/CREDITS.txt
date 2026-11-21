@@ -1,0 +1,80 @@
+Viola instrument pack
+
+Solo viola recordings
+
+TinySOL v6.0 (2020), recorded at IRCAM in Paris for Studio On Line.
+Creators: Carmine-Emanuele Cella, Daniele Ghisi, Vincent Lostanlen,
+Fabien Lévy, Joshua Fineberg, and Yan Maresz.
+Source: https://doi.org/10.5281/zenodo.3685367
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+TinySOL is supplied without warranties. No endorsement is implied.
+
+This pack includes one separately recorded bowed mezzo-forte note for
+each semitone from C3 through C7. TinySOL corrected the tuning of some
+takes. For Alto, each take was excerpted at the bow attack, trimmed to
+one second, level-adjusted, faded, and converted to 32 kHz mono 16-bit
+PCM WAV. The filenames below identify the original takes in TinySOL's
+Strings/Viola/ordinario directory.
+
+Pack pitch and original filename
+C3    Va-ord-C3-mf-4c-N.wav
+Db3    Va-ord-C#3-mf-4c-T24u.wav
+D3    Va-ord-D3-mf-4c-N.wav
+Eb3    Va-ord-D#3-mf-4c-T22u.wav
+E3    Va-ord-E3-mf-4c-T19u.wav
+F3    Va-ord-F3-mf-4c-N.wav
+Gb3    Va-ord-F#3-mf-4c-T12u.wav
+G3    Va-ord-G3-mf-3c-N.wav
+Ab3    Va-ord-G#3-mf-3c-N.wav
+A3    Va-ord-A3-mf-4c-T10u.wav
+Bb3    Va-ord-A#3-mf-3c-N.wav
+B3    Va-ord-B3-mf-3c-T16u.wav
+C4    Va-ord-C4-mf-3c-N.wav
+Db4    Va-ord-C#4-mf-3c-N.wav
+D4    Va-ord-D4-mf-2c-N.wav
+Eb4    Va-ord-D#4-mf-2c-N.wav
+E4    Va-ord-E4-mf-2c-N.wav
+F4    Va-ord-F4-mf-2c-N.wav
+Gb4    Va-ord-F#4-mf-2c-N.wav
+G4    Va-ord-G4-mf-2c-N.wav
+Ab4    Va-ord-G#4-mf-2c-T10d.wav
+A4    Va-ord-A4-mf-1c-N.wav
+Bb4    Va-ord-A#4-mf-1c-N.wav
+B4    Va-ord-B4-mf-1c-N.wav
+C5    Va-ord-C5-mf-1c-N.wav
+Db5    Va-ord-C#5-mf-1c-N.wav
+D5    Va-ord-D5-mf-1c-N.wav
+Eb5    Va-ord-D#5-mf-1c-T11u.wav
+E5    Va-ord-E5-mf-1c-T16u.wav
+F5    Va-ord-F5-mf-1c-N.wav
+Gb5    Va-ord-F#5-mf-1c-N.wav
+G5    Va-ord-G5-mf-1c-N.wav
+Ab5    Va-ord-G#5-mf-1c-T13u.wav
+A5    Va-ord-A5-mf-1c-N.wav
+Bb5    Va-ord-A#5-mf-1c-T16u.wav
+B5    Va-ord-B5-mf-1c-T15u.wav
+C6    Va-ord-C6-mf-1c-T12u.wav
+Db6    Va-ord-C#6-mf-1c-N.wav
+D6    Va-ord-D6-mf-1c-T15u.wav
+Eb6    Va-ord-D#6-mf-1c-T13u.wav
+E6    Va-ord-E6-mf-1c-N.wav
+F6    Va-ord-F6-mf-1c-N.wav
+Gb6    Va-ord-F#6-mf-1c-N.wav
+G6    Va-ord-G6-mf-1c-N.wav
+Ab6    Va-ord-G#6-mf-1c-N.wav
+A6    Va-ord-A6-mf-1c-N.wav
+Bb6    Va-ord-A#6-mf-1c-N.wav
+B6    Va-ord-B6-mf-1c-T17u.wav
+C7    Va-ord-C7-mf-1c-T10u.wav
+
+Picture: Viola by August Martin Gemünder, American, 1893. The Metropolitan Museum of
+Art, New York, Gift of A. Gemunder & Sons, 1945 (45.71.3). Photograph released
+by the museum under its Open Access program (Creative Commons Zero).
+https://www.metmuseum.org/art/collection/search/504403
+The picture of the back, images/viola-back.webp, is the museum's second photograph of
+the same viola (DP-21004-002). For Alto, each photograph was cut out from its studio
+backdrop, turned so the neck points left, and scaled to 2040 by 768 pixels. The museum lists the viola as
+67 cm long overall with a 36.9 cm vibrating string length.
+
+The tile icon, icons/viola.svg, is the outline of the front photograph, with its f-holes, fingerboard, and tailpiece cut out, traced for Alto.
